@@ -35,7 +35,8 @@ class School
   def sort
     x=@roster
     x.collect do |k1,v1|
-
+      v1.collect do |v2|
+        
       end 
     end 
   end 
