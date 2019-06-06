@@ -38,7 +38,7 @@ class School
       a=v1.sort!
       k1=a
     end 
+    return x
   end 
-  return x
 end 
 
