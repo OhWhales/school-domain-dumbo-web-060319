@@ -14,7 +14,7 @@ class School
     bool_fun = 0
     while (counter < x.length) 
       if x[counter] == grade 
-        roster[grade].push(name)
+        bool_fun = 1
       end 
       counter = counter + 1
     end 
