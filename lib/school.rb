@@ -39,5 +39,6 @@ class School
       k1=a
     end 
   end 
+  return x
 end 
 
