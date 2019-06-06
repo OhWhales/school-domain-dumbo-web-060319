@@ -13,7 +13,7 @@ class School
     counter = 0 
     while (counter < x.length) 
       if x[counter] == grade 
-        
+        roster[grade].push(name)
       end 
       counter = counter + 1
     end 
