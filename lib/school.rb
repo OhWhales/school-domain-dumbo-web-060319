@@ -24,8 +24,6 @@ class School
       roster[grade]=[]
       roster[grade].push(name)
     end 
-    roster[grade]=[]
-    roster[grade].push(name)
   end 
 end 
 
