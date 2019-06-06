@@ -11,6 +11,12 @@ class School
   def add_student(name, grade)
     x=@roster.keys 
     counter = 0 
+    while (counter < x.length) 
+      if x[counter] == grade 
+        
+      end 
+      counter = counter + 1
+    end 
     roster[grade]=[]
     roster[grade].push(name)
   end 
