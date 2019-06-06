@@ -18,7 +18,9 @@ class School
       end 
       counter = counter + 1
     end 
-    
+    if bool_fun == 1 
+      roster[grade].push(name)
+    end 
     roster[grade]=[]
     roster[grade].push(name)
   end 
