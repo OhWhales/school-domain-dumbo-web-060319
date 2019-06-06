@@ -20,6 +20,9 @@ class School
     end 
     if bool_fun == 1 
       roster[grade].push(name)
+    else 
+      roster[grade]=[]
+      roster[grade].push(name)
     end 
     roster[grade]=[]
     roster[grade].push(name)
