@@ -25,6 +25,8 @@ class School
       roster[grade].push(name)
     end 
   end 
-  
+  def grade(level)
+    
+  end 
 end 
 
