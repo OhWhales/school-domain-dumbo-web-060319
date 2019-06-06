@@ -10,7 +10,7 @@ class School
   
   def add_student(name, grade)
     x=@roster.keys 
-    puts x
+    counter = 0 
     roster[grade]=[]
     roster[grade].push(name)
   end 
