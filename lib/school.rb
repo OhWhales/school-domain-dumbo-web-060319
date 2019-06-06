@@ -36,7 +36,7 @@ class School
     x=@roster
     x.collect do |k1,v1|
       v1.sort!
-      end 
+      
     end 
   end 
 end 
