@@ -33,7 +33,7 @@ class School
     end 
   end 
   def sort
-    
+    x=@roster
   end 
 end 
 
