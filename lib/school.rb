@@ -34,7 +34,9 @@ class School
   end 
   def sort
     x=@roster
-    
+    x.each do |k1,v1|
+      
+    end 
   end 
 end 
 
