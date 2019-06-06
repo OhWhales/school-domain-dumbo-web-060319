@@ -34,7 +34,7 @@ class School
   end 
   def sort
     x=@roster
-    x.collect do |k1,v1|
+    x.eaco do |k1,v1|
       a=v1.sort!
 
     end 
