@@ -18,6 +18,7 @@ class School
       end 
       counter = counter + 1
     end 
+    
     roster[grade]=[]
     roster[grade].push(name)
   end 
