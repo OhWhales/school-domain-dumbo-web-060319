@@ -26,7 +26,11 @@ class School
     end 
   end 
   def grade(level)
-    
+    @roster.each do |k1,v1|
+      if k1 == level 
+        return v1 
+      end 
+    end 
   end 
 end 
 
